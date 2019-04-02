@@ -1,0 +1,36 @@
+alias c='clear'
+alias e='exit'
+
+alias tls='tmux ls'
+alias tnew='tmux new -s'
+alias ta='tmux attach -t'
+
+# 
+alias fdir='find . -type d -name'
+alias ff='find . -type f -name'
+
+alias h='history'
+alias cp='cp -iv'
+alias mv='mv -iv'
+
+alias rmf='rm -rf'
+
+# git设置
+alias g='git'
+alias gst='git status'
+alias ga='git add'
+alias gcm='git commit -m'
+alias gd='git diff'
+alias tl='tig log'
+
+# edit config file
+alias va='vim ~/.aliases'
+alias vz='vim ~/.zshrc'
+alias vt='vim ~/.tmux.conf'
+alias szf='source ~/.zshrc'
+
+# 安装
+alias ag='apt-get -y install'
+
+# docker相关
+alias di='docker images'
